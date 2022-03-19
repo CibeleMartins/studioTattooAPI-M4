@@ -14,7 +14,7 @@
        <br />
     <br />
     <h1 align="center">
-    <img src="./readme/pensamentos.gif" alt="gif-readme">
+    <img src="./public/assets/logoGit.png" alt="Logo" width="250">
  </h1>
   </p>
 </p>
