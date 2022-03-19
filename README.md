@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-    <img src="./public/assets/airtightStudio.png" alt="Logo" width="150">
+    <img src="./public/assets/airtightStudio.png" alt="Logo" width="300">
 
   <h3 align="center">API Hotel com Node, Express, Sequelize e SQLite</h3>
  <br />
