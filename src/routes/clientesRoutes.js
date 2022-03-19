@@ -11,7 +11,7 @@ router.get("/clientes/:id", clientesController.listaUm);
 
 router.post("/clientes", clientesController.insereRegistro);
 
-router.put("/clientes/:id", clientesController.atualizaRegistro);
+router.patch("/clientes/:id", clientesController.atualizaRegistro);
 
 router.delete("/clientes/:id", clientesController.deletaRegistro);
 
