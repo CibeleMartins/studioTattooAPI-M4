@@ -93,7 +93,7 @@ Antes de começar, você precisará instalar em sua máquina as seguintes ferram
 # Clone este repositório
 $git clone https://github.com/CibeleMartins/studioTattooAPI-M4
 
-# Abra seu VSCode, clique em -> **arquivo** -> **abrir pasta** e abra a pasta da API.
+# Abra seu VSCode, clique em -> arquivo -> abrir pasta e abra a pasta da API.
 
 # Na parte superior de seu VSCode, -> abra um novo terminal e instale as dependências do projeto
 $npm install
@@ -107,7 +107,7 @@ Exemplo: const port = process.env.PORT || port;
 # Volte ao terminal do VSCode e inicie o servidor da aplicação
 $npm start
 
-# Em seguida digite o comando responsável por criar a base de dados com a entidade Atendimentos. 
+# Em seguida digite o comando responsável por criar a base de dados com a entidade Atendimentos.
 $npm run create-table
 
 # Caso deseje fazer alguma alteração na entidade Atendimentos, entre em -> migrations para configurá-la e em -> models para passar a configuração da migração, e depois digite o comando supracitado.
