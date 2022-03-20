@@ -102,6 +102,7 @@ $ npm install
 PORT=NUMBER
 
 # Após isso, declare o mesmo número de porta na linha 10, constante "port", do módulo app.js -> localizado na raiz do projeto.
+Exemplo: const port = process.env.PORT || port;
 
 # Volte ao terminal do VSCode e inicie o servidor da aplicação
 $ npm start
