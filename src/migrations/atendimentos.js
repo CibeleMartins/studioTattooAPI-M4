@@ -3,7 +3,7 @@
 module.exports = {
   up: (queryInterface, Sequelize) => {
 
-    return queryInterface.createTable("Clientes", {
+    return queryInterface.createTable("Atendimentos", {
       id: {
         type: Sequelize.INTEGER,
         primaryKey: true,
@@ -30,8 +30,16 @@ module.exports = {
         type: Sequelize.TEXT,
         allowNull: false
       },
+      link_foto_tattoo: {
+        type: Sequelize.STRING,
+        allowNull: true
+      },
       data_sessao_tattoo: {
-        type: Sequelize.DATE,
+        type: Sequelize.DATEONLY,
+        allowNull: false
+      },
+      nome_tatuador: {
+        type: Sequelize.STRING,
         allowNull: false
       },
        createdAt: {
@@ -47,6 +55,6 @@ module.exports = {
   },
 
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable("Clientes");
+    return queryInterface.dropTable("Atendimentos");
   },
 }; 

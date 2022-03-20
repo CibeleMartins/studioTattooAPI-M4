@@ -1,8 +1,8 @@
 const res = require("express/lib/response");
 const {DataTypes} = require("sequelize")
-const database = require("../models/clientes");
+const database = require("../models/atendimentos");
 
-class clientesController {
+class atendimentosController {
   
   static async listaTodosReg(req, res) {
 
@@ -103,4 +103,4 @@ class clientesController {
 }
 
 
-module.exports = clientesController;
+module.exports = atendimentosController;

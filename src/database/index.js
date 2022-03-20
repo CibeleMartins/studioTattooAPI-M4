@@ -1,10 +1,10 @@
 const Sequelize = require("sequelize")
 const config = require("../config/config")
 
-const Clientes = require("../models/clientes");
+const Atendimentos = require("../models/atendimentos");
 
 const connection = new Sequelize(config);
 
-Clientes.init(connection);
+Atendimentos.init(connection);
 
 module.exports = connection;

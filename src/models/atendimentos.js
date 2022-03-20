@@ -1,7 +1,7 @@
 
 const { Model, DataTypes } = require("sequelize");
 
-class Clientes extends Model {
+class Atendimentos extends Model {
   static init(sequelize) {
     super.init(
       {
@@ -11,23 +11,25 @@ class Clientes extends Model {
           autoIncrement: true,
           allowNull: false
          },
+
         nome: DataTypes.STRING,
         sobrenome: DataTypes.STRING,
         email: DataTypes.STRING,
         telefone: DataTypes.STRING,
         descricao_tattoo: DataTypes.TEXT,
-        data_sessao_tattoo: DataTypes.DATE,
-
+        link_foto_tattoo: DataTypes.STRING,
+        data_sessao_tattoo: DataTypes.DATEONLY,
+        nome_tatuador: DataTypes.STRING
+        
       },
       
       {
         sequelize,
-        modelName: "Clientes",
+        modelName: "Atendimentos",
       }
     );
   }
 
-
 }
 
-module.exports = Clientes;
+module.exports = Atendimentos;

@@ -1,10 +1,10 @@
 const express = require("express");
-const clientes = require("./clientesRoutes")
+const atendimentos = require("./atendimentosRoutes")
 
 module.exports = app => {
   
   app.use(express.json())
-  app.use(clientes)
+  app.use(atendimentos)
  
 
 }
