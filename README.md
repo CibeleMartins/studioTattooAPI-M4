@@ -106,7 +106,7 @@ PORT=NUMBER
 # Volte ao terminal do VSCode e inicie o servidor da aplicação
 $ npm start
 
-# Em seguida digite o comando responsável por criar a base de dados com a entidade Atendimentos. Em 
+# Em seguida digite o comando responsável por criar a base de dados com a entidade Atendimentos. 
 $ npm run create-table
 
 # Caso deseje fazer alguma alteração na entidade Atendimentos, entre em -> migrations para configurá-la e em -> models para passar a configuração da migração, e depois digite o comando supracitado.
