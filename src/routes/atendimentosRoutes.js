@@ -5,7 +5,7 @@ const atendimentosController = require("../controllers/atendimentosController");
 
 const router = Router();
 
-router.get("/atendimentos", atendimentosController.listaTodosReg);
+router.get("/", atendimentosController.listaTodosReg);
 
 router.get("/atendimentos/:id", atendimentosController.listaUm);
 
