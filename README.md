@@ -130,9 +130,18 @@ Clique em -> **Create** e depois em -> **File**.
 
 Vá até o arquivo -> **crudInsomnia.har** inserido dentro da pasta raiz do projeto, selecione-o e clique em -> **import**.
 
-**Ou somente clique no botão abaixo e realize as etapas seguintes**
+**Ou somente clique no botão abaixo, observe os Gifs e realize as etapas seguintes**
 
 <a href="https://insomnia.rest/run/?label=studioTattooApi&uri=https%3A%2F%2Fraw.githubusercontent.com%2FCibeleMartins%2FstudioTattooAPI-M4-Resilia%2Fmain%2FcrudInsomnia.har" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+
+<p>
+
+<img src="./public/assets/insomnia.gif" alt="Logo" width="300">
+<img src="./public/assets/insomnia2.gif" alt="Logo" width="500" height="300">
+
+</p>
+
+
 
 Abra a coleção criada no Insomnia com o nome **My Collection**. Através dos métodos HTTP você pode realizar todas as operações do CRUD com a studioTattooApi. Para isso é necessário que você clique em -> **No Environment** -> **Manage Environments** -> **Base Environments** e declare o seguinte **json**
 
