@@ -91,12 +91,12 @@ Antes de começar, você precisará instalar em sua máquina as seguintes ferram
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/CibeleMartins/studioTattooAPI-M4
+$git clone https://github.com/CibeleMartins/studioTattooAPI-M4
 
 # Abra seu VSCode, clique em -> **arquivo** -> **abrir pasta** e abra a pasta da API.
 
 # Na parte superior de seu VSCode, -> abra um novo terminal e instale as dependências do projeto
-$ npm install
+$npm install
 
 # Entre no arquivo -> .env, e na linha 1, atribua um valor a variável de ambiente PORT= inserindo o número de uma porta do seu localhost 
 PORT=NUMBER
@@ -105,18 +105,18 @@ PORT=NUMBER
 Exemplo: const port = process.env.PORT || port;
 
 # Volte ao terminal do VSCode e inicie o servidor da aplicação
-$ npm start
+$npm start
 
 # Em seguida digite o comando responsável por criar a base de dados com a entidade Atendimentos. 
-$ npm run create-table
+$npm run create-table
 
 # Caso deseje fazer alguma alteração na entidade Atendimentos, entre em -> migrations para configurá-la e em -> models para passar a configuração da migração, e depois digite o comando supracitado.
 
 # Após, declare o comando que vai inserir alguns Atendimentos já pré-inseridos no módulo da pasta seeders para visualizarmos na tabela Atendimentos.
-$ npm run populate-table 
+$npm run populate-table 
 
 # Se desejar deletar a migração de colunas e dados da tabela Atendimentos digite o comando
-$ npm run delete-table
+$npm run delete-table
 
 #Obs: Caso o usuário queira incrementar o projeto é recomendado que observe e verifique a documentação do Sequelize.
 https://sequelize.org/
