@@ -76,7 +76,7 @@ descricao_tattoo: "Uma tatuagem de dragão, sem cores, de mais ou menos 70cm nas
 
 <b>[DELETE] </b> /atendimentos/:id - A rota deve deletar um cliente baseado em seu ID.<br>
 
-# Validação de dados
+# Validação de dados:
  
  
 
@@ -121,23 +121,28 @@ $ npm run delete-table
 #Obs: Caso o usuário queira incrementar o projeto é recomendado que observe e verifique a documentação do Sequelize.
 https://sequelize.org/
 
-# Utilize o Insomnia para realizar as requisições nas rotas. Para isso, abra o Insomnia no seu computador.
+```
+# CRUD com Insomnia:
 
-# Clique em -> Create e depois em -> File.
+Utilize o Insomnia para realizar as requisições na studioTattooApi! Para isso, abra o Insomnia no seu computador.
 
-# Vá até o arquivo -> crudInsomnia.har inserido dentro da pasta raiz do projeto, selecione-o e clique em -> import.
+Clique em -> **Create** e depois em -> **File**.
 
-# Através dos métodos HTTP você pode realizar todas as operações do CRUD com a studioTattooApi. Para isso é necessário que você clique em -> No Environment -> Base Environments e declare o seguinte json
+Vá até o arquivo -> **crudInsomnia.har** inserido dentro da pasta raiz do projeto, selecione-o e clique em -> **import**.
+
+**Ou somente clique no botão abaixo e realize as etapas seguintes**
+
+<a href="https://insomnia.rest/run/?label=studioTattooApi&uri=https%3A%2F%2Fraw.githubusercontent.com%2FCibeleMartins%2FstudioTattooAPI-M4-Resilia%2Fmain%2FcrudInsomnia.har" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+
+Abra a coleção criada no Insomnia com o nome **My Collection**. Através dos métodos HTTP você pode realizar todas as operações do CRUD com a studioTattooApi. Para isso é necessário que você clique em -> **No Environment** -> **Manage Environments** -> **Base Environments** e declare o seguinte **json**
 
 { "url": "localhost:port" }
 
-# Clique em -> Done.
+Clique em -> **Done**.
 
-# No lugar de "port" insira o número de uma porta do seu localhost, e faça o mesmo com os endereços das rotas com os verbos HTTP. Importante ressaltar, que nas rotas o endereço deve ser exatamente "localhost:port/rota", caso o arquivo não seja aberto com essas configurações é necessário inserí-las.
+No lugar de "port" insira o número de uma porta do seu localhost, e faça o mesmo com os endereços das rotas com os verbos HTTP. Importante ressaltar, que nas rotas o endereço deve ser exatamente **"localhost:port/rota"**, caso o arquivo não seja aberto com essas configurações é necessário inserí-las.
 
-# OBS: O número da "port" deve ser o mesmo declarado na variável de ambiente PORT=NUMBER da aplicação e no app.js.
-
-```
+**OBS**: O número da "port" deve ser o mesmo declarado na variável de ambiente PORT=NUMBER da aplicação e no app.js.
 
 # Tecnologias utilizadas: 
 <p align="center">
