@@ -9,11 +9,11 @@
     "create-table": "npx sequelize-cli db:migrate",
     "delete-table": "npx sequelize-cli db:migrate:undo",
     "populate-table": "npx sequelize-cli db:seed:all"
-
   },
   "author": "Cibele Martins",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.0.1",
     "dotenv-safe": "^8.2.0",
     "express": "^4.17.3",
     "path": "^0.12.7",

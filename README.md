@@ -21,7 +21,7 @@
 
 
 # Sobre
-O objetivo do projeto foi criar uma API para um estúdio de tatuagem utilizando Node, Express, Sequelize e SQLite como projeto final do Módulo 4 da Turma 10 do curso de Desenvolvimento Web Fullstack da Resilia Educação.
+Projeto desenvolvido no final do Módulo 4, na Turma 10 do curso de Desenvolvimento Web Fullstack da Resilia Educação. A finalidade do projeto foi criar uma API para um estúdio de tatuagem utilizando Node, Express, Sequelize e SQLite. 
 
 Cada integrante do grupo ficou responsável pela criação de uma API referente à uma entidade do banco de dados do estúdio de tatuagem. 
 
@@ -50,14 +50,14 @@ Nesta aplicação é possível cadastrar, listar, atualizar e deletar atendiment
 
 ```javascript
 {
-
-nome:"Viviane Rocha",
-sobrenome:"da Silva",
-email:"vivirocha@hotmail.com",
-telefone:"44 9 88626775",
-descricao_tattoo:"Uma borboleta rosa de 30cm no braço.",
-data_sessao_tattoo:"2022-04-25"
-
+nome:"Gisele",
+sobrenome:"Vieira Rocha",
+email:"rochavieira@hotmail.com",
+telefone:"44 9 99387752",
+descricao_tattoo:"Uma tatuagem de um barco, de mais ou menos 50cm no braço.",
+link_foto_tattoo:"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftudocommoda.com%2Fpiercing-tattoo%2Ftatuagem-de-barco-e-navio%2F&psig=AOvVaw2i_rXpQXIrKT0s3IbowbEN&ust=1647831430415000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNDkgMzY0_YCFQAAAAAdAAAAABAD",
+ data_sessao_tattoo:"2022-04-17",
+ nome_tatuador:"Maria Júlia Rosseto"
 }
 ```
 
@@ -65,12 +65,12 @@ data_sessao_tattoo:"2022-04-25"
 
 ```javascript
 {
-nome:"Adriano Firmino",
-sobrenome:"da Silva",
-email:"adfs@hotmail.com",
-telefone:"44 9 88666558",
-descricao_tattoo:"Uma flecha indiana de 30cm no braço, na cor preto.",
-data_sessao_tattoo:"2022-04-25"
+id: 1,
+nome: "John Doe",
+sobrenome: "Martins",
+email: "john@hotmail.com",
+telefone: "44 9 99786753",
+descricao_tattoo: "Uma tatuagem de dragão, sem cores, de mais ou menos 70cm nas costas."
 }
 ```
 
@@ -91,31 +91,53 @@ Antes de começar, você precisará instalar em sua máquina as seguintes ferram
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/CibeleMartins/clientTattooAPI-M4
+$ git clone https://github.com/CibeleMartins/studioTattooAPI-M4
 
 # Acesse a pasta do projeto no terminal
 $ cd pasta-projeto 
 
-# Instale as dependências do projeto
+# Na parte superior de seu VSCode, -> abra um novo terminal e instale as dependências do projeto
 $ npm install
 
-# Instale as dependencias
+# Entre no arquivo -> .env, e na linha 1, atribua um valor a variável de ambiente PORT= inserindo o número de uma porta do seu localhost 
+PORT=NUMBER
 
-#Comando do sequelize-cli
+# Após isso, declare o mesmo número de porta na linha 10, constante "port", do módulo app.js -> localizado na raiz do projeto.
 
-# Inicie o servidor da aplicação
+# Volte ao terminal do VSCode e inicie o servidor da aplicação
 $ npm start
 
-# Utilize o Insomnia para realizar as requisições nas rotas
+# Em seguida digite o comando responsável por criar a base de dados com a entidade Atendimentos. Em 
+$ npm run create-table
 
-#Obs: Caso queira popular o banco de dados, acesse o arquivo 'app.js' no VSCode, remova o '//' da linha 14 até a 18, e execute o comando npm start.
+# Caso deseje fazer alguma alteração na entidade Atendimentos, entre em -> migrations para configurá-la e em -> models para passar a configuração da migração, e depois digite o comando supracitado.
+
+# Após, declare o comando que vai inserir alguns Atendimentos já pré-inseridos no módulo da pasta seeders para visualizarmos na tabela Atendimentos.
+$ npm run populate-table 
+
+# Se desejar deletar a migração de colunas e dados da tabela Atendimentos digite o comando
+$ npm run delete-table
+
+#Obs: Caso o usuário queira incrementar o projeto é recomendado que observe e verifique a documentação do Sequelize.
+https://sequelize.org/
+
+# Utilize o Insomnia para realizar as requisições nas rotas. Para isso, abra o Insomnia no seu computador.
+
+# Clique em -> Create e depois em -> File.
+
+# Vá até o arquivo -> crudInsomnia.har inserido dentro da pasta raiz do projeto, selecione-o e clique em -> import.
+
+# Através dos métodos HTTP você pode realizar todas as operações do CRUD com a studioTattooApi. Para isso é necessário que você clique em -> No Environment -> Base Environments e declare o seguinte json
+
+{ "url": "localhost:port" }
+
+# Clique em -> Done.
+
+# No lugar de "port" insira o número de uma porta do seu localhost, e faça o mesmo com os endereços das rotas com os verbos HTTP. Importante ressaltar, que nas rotas o endereço deve ser exatamente "localhost:port/rota", caso o arquivo não seja aberto com essas configurações é necessário inserí-las.
+
+# OBS: O número da "port" deve ser o mesmo declarado na variável de ambiente PORT=NUMBER da aplicação e no app.js.
 
 ```
-
-
-
-
-
 
 # Tecnologias utilizadas: 
 <p align="center">
