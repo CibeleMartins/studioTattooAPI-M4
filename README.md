@@ -61,7 +61,7 @@ link_foto_tattoo:"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftudocommoda.
 }
 ```
 
-<b>[PATCH] </b> /clientes/:id - A rota deve atualizar um atendimento com as informações passadas no body da requisição. Caso necessário apenas uma informação pode ser atualizada um por vez.<br>
+<b>[PATCH] </b> /atendimentos/:id - A rota deve atualizar um atendimento com as informações passadas no body da requisição. Caso necessário apenas uma informação pode ser atualizada um por vez.<br>
 
 ```javascript
 {
@@ -74,7 +74,7 @@ descricao_tattoo: "Uma tatuagem de dragão, sem cores, de mais ou menos 70cm nas
 }
 ```
 
-<b>[DELETE] </b> /clientes/:id - A rota deve deletar um cliente baseado em seu ID.<br>
+<b>[DELETE] </b> /atendimentos/:id - A rota deve deletar um cliente baseado em seu ID.<br>
 
 # Validação de dados
  
