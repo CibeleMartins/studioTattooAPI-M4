@@ -151,7 +151,8 @@ Clique em -> **Done**.
 
 No lugar de "port" insira o número de uma porta do seu localhost, e faça o mesmo com os endereços das rotas com os verbos HTTP. Importante ressaltar, que nas rotas o endereço deve ser exatamente **"localhost:port/rota"**, caso o arquivo não seja aberto com essas configurações é necessário inserí-las.
 
-**OBS**: O número da "port" deve ser o mesmo declarado na variável de ambiente PORT=NUMBER da aplicação e no app.js.
+**OBS**: O número da "port" deve ser o mesmo declarado na variável de ambiente PORT=NUMBER da aplicação e no app.js. 
+
 
 # Tecnologias utilizadas: 
 <p align="center">
