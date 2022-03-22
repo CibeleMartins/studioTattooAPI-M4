@@ -42,11 +42,11 @@ Nesta aplicação é possível cadastrar, listar, atualizar e deletar atendiment
 
 ## Clientes
 
-<b>[GET] </b> / - A rota deve exibir todos os atendimentos cadastrados.<br>
+**GET** / - A rota deve exibir todos os atendimentos cadastrados.<br>
 
-<b>[GET] </b> /atendimentos/:id - A rota deve listar um atendimento baseado em seu ID.<br>
+**GET** /atendimentos/:id - A rota deve listar um atendimento baseado em seu ID.<br>
 
-<b>[POST] </b> /atendimentos - A rota deve cadastrar um atendimento com as informações passadas no body da requisição.<br>
+**POST** /atendimentos - A rota deve cadastrar um atendimento com as informações passadas no body da requisição.<br>
 
 ```javascript
 {
@@ -61,7 +61,7 @@ link_foto_tattoo:"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftudocommoda.
 }
 ```
 
-<b>[PATCH] </b> /atendimentos/:id - A rota deve atualizar um atendimento com as informações passadas no body da requisição. Caso necessário apenas uma informação pode ser atualizada um por vez.<br>
+**PATCH** /atendimentos/:id - A rota deve atualizar um atendimento com as informações passadas no body da requisição. Caso necessário apenas uma informação pode ser atualizada um por vez.<br>
 
 ```javascript
 {
@@ -74,7 +74,7 @@ descricao_tattoo: "Uma tatuagem de dragão, sem cores, de mais ou menos 70cm nas
 }
 ```
 
-<b>[DELETE] </b> /atendimentos/:id - A rota deve deletar um cliente baseado em seu ID.<br>
+**DELETE** /atendimentos/:id - A rota deve deletar um atendimento baseado em seu ID.<br>
 
 # Validação de dados:
  
@@ -90,15 +90,22 @@ Antes de começar, você precisará instalar em sua máquina as seguintes ferram
 
 
 ```bash
-# Abra seu VSCode, na parte superior, -> abra um novo terminal
+# Crie uma pasta onde desejar, clique com o botão direito e depois clique em -> Git Bash Here.
 
-# Clone este repositório
+# Clone este repositório.
 $git clone https://github.com/CibeleMartins/studioTattooAPI-M4
 
-# Na parte superior de seu VSCode, -> abra um novo terminal e instale as dependências do projeto
+# Abra a pasta clonada em seu VSCode.
+
+# Ao abrir o VSCode, clique em -> Terminal e inicie um novo terminal.
+
+# Certifique-se de que está dentro da pasta clonada para que os outros comandos funcionem com êxito.
+$cd studioTattooAPI-M4-Resilia
+
+# Instale as dependências do projeto.
 $npm install
 
-# Volte ao terminal do VSCode e inicie o servidor da aplicação
+# Inicie o servidor da aplicação.
 $npm start
 
 # Em seguida digite o comando responsável por criar a base de dados com a entidade Atendimentos.
@@ -131,21 +138,17 @@ Vá até o arquivo -> **crudInsomnia.har** inserido dentro da pasta raiz do proj
 <p>
 
 <img src="./public/assets/insomnia.gif" alt="Logo" width="300">
-<img src="./public/assets/insomnia2.gif" alt="Logo" width="500" height="300">
 
 </p>
-
-
+<br>
 
 Abra a coleção criada no Insomnia com o nome **My Collection**. Através dos métodos HTTP você pode realizar todas as operações do CRUD com a studioTattooApi. Para isso é necessário que você clique em -> **No Environment** -> **Manage Environments** -> **Base Environments** e declare o seguinte **json**
 
-{ "url": "localhost:port" }
+{ "url": "localhost:3000" }
 
 Clique em -> **Done**.
 
-No lugar de "port" insira o número de uma porta do seu localhost, e faça o mesmo com os endereços das rotas com os verbos HTTP. Importante ressaltar, que nas rotas o endereço deve ser exatamente **"localhost:port/rota"**, caso o arquivo não seja aberto com essas configurações é necessário inserí-las.
-
-**OBS**: O número da "port" deve ser o mesmo declarado na variável de ambiente PORT=NUMBER da aplicação e no app.js. 
+Após isso, utilize a variável de ambiente URL antes do nome da rota e teste o CRUD da aplicação.
 
 
 # Tecnologias utilizadas: 
@@ -156,4 +159,4 @@ No lugar de "port" insira o número de uma porta do seu localhost, e faça o mes
 
 
 ---
-**Desenvolvido por <a href="www.linkedin.com/in/cibelemartinssss">Cibele Martins</a> .** 
+**Desenvolvido por <a href="https://www.linkedin.com/in/cibelemartinssss/">Cibele Martins</a> .** 
