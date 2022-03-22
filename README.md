@@ -100,7 +100,7 @@ $git clone https://github.com/CibeleMartins/studioTattooAPI-M4
 # Ao abrir o VSCode, clique em -> Terminal e inicie um novo terminal.
 
 # Certifique-se de que está dentro da pasta clonada para que os outros comandos funcionem com êxito.
-$cd studioTattooAPI-M4-Resilia
+$cd studioTattooAPI-M4
 
 # Instale as dependências do projeto.
 $npm install
