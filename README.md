@@ -108,10 +108,12 @@ $npm install
 # Inicie o servidor da aplicação.
 $npm start
 
+# Após isso, para não precisar abrir um novo terminal, aperte CTRL + C, digite "s" e aperte ENTER.
+
 # Em seguida digite o comando responsável por criar a base de dados com a entidade Atendimentos.
 $npm run create-table
 
-# Caso deseje fazer alguma alteração na entidade Atendimentos, entre em -> migrations para configurá-la e em -> models para passar a configuração da migração, e depois digite o comando supracitado.
+# OBS: 1 - Caso deseje fazer alguma alteração na entidade Atendimentos, entre em -> migrations para configurá-la e em -> models para passar a configuração da migração, e depois digite o comando supracitado. 2 - Caso seja feito esse tipo de alteração na tabela, é necessário também, inserir as alterações nos Atendimentos pré-inseridos na pasta seeders.
 
 # Após, declare o comando que vai inserir alguns Atendimentos já pré-inseridos no módulo da pasta seeders para visualizarmos na tabela Atendimentos.
 $npm run populate-table 
