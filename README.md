@@ -2,7 +2,7 @@
 <p align="center">
     <img src="./public/assets/airtightStudio.png" alt="Logo" width="300">
 
-  <h3 align="center">API Hotel com Node, Express, Sequelize e SQLite</h3>
+  <h3 align="center">Studio Tattoo API com Node, Express, Sequelize e SQLite</h3>
  <br />
   <p align="center">
      Sumário
@@ -93,16 +93,12 @@ Antes de começar, você precisará instalar em sua máquina as seguintes ferram
 # Clone este repositório
 $git clone https://github.com/CibeleMartins/studioTattooAPI-M4
 
-# Abra seu VSCode, clique em -> arquivo -> abrir pasta e abra a pasta da API.
+
+
+# OBS: Certifique-se de que está dentro da pasta clonada para que não retorne nenhum erro ao executar os próximos comandos.
 
 # Na parte superior de seu VSCode, -> abra um novo terminal e instale as dependências do projeto
 $npm install
-
-# Entre no arquivo -> .env, e na linha 1, atribua um valor a variável de ambiente PORT= inserindo o número de uma porta do seu localhost 
-PORT=NUMBER
-
-# Após isso, declare o mesmo número de porta na linha 10, constante "port", do módulo app.js -> localizado na raiz do projeto.
-Exemplo: const port = process.env.PORT || port;
 
 # Volte ao terminal do VSCode e inicie o servidor da aplicação
 $npm start
