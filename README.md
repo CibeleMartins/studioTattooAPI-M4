@@ -90,12 +90,10 @@ Antes de começar, você precisará instalar em sua máquina as seguintes ferram
 
 
 ```bash
+# Abra seu VSCode, na parte superior, -> abra um novo terminal
+
 # Clone este repositório
 $git clone https://github.com/CibeleMartins/studioTattooAPI-M4
-
-
-
-# OBS: Certifique-se de que está dentro da pasta clonada para que não retorne nenhum erro ao executar os próximos comandos.
 
 # Na parte superior de seu VSCode, -> abra um novo terminal e instale as dependências do projeto
 $npm install
