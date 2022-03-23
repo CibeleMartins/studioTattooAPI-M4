@@ -52,6 +52,7 @@ Nesta aplicação é possível cadastrar, listar, atualizar e deletar atendiment
 {
 nome:"Gisele",
 sobrenome:"Vieira Rocha",
+cpf_cliente: "037.888.333-09",
 email:"rochavieira@hotmail.com",
 telefone:"44 9 99387752",
 descricao_tattoo:"Uma tatuagem de um barco, de mais ou menos 50cm no braço.",
@@ -68,6 +69,7 @@ link_foto_tattoo:"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftudocommoda.
 id: 1,
 nome: "John Doe",
 sobrenome: "Martins",
+cpf_cliente: "064.332.633-05",
 email: "john@hotmail.com",
 telefone: "44 9 99786753",
 descricao_tattoo: "Uma tatuagem de dragão, sem cores, de mais ou menos 70cm nas costas."
