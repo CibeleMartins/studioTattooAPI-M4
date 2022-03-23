@@ -14,6 +14,7 @@ class Atendimentos extends Model {
 
         nome: DataTypes.STRING,
         sobrenome: DataTypes.STRING,
+        cpf_cliente: DataTypes.STRING,
         email: DataTypes.STRING,
         telefone: DataTypes.STRING,
         descricao_tattoo: DataTypes.TEXT,

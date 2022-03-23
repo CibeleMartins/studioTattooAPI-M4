@@ -7,8 +7,9 @@ module.exports = {
      await queryInterface.bulkInsert('Atendimentos', [
 
       {
-      nome: 'John Doe',
+      nome: "John Doe",
       sobrenome: "Martins",
+      cpf_cliente: "044.122.433-05",
       email: "john@hotmail.com",
       telefone:"44 9 99786753",
       descricao_tattoo: "Uma tatuagem de leão, sem cores, de mais ou menos 70cm nas costas.",
@@ -20,8 +21,9 @@ module.exports = {
     },
 
     {
-      nome: 'Maria Julia',
+      nome: "Maria Julia",
       sobrenome: "Vitorin",
+      cpf_cliente: "034.132.633-05",
       email: "mariajv@hotmail.com",
       telefone:"44 9 99386784",
       descricao_tattoo: "Uma tatuagem de sereia, com cores em preto e vermelho, de mais ou menos 90cm na lateral da perna direita.",
@@ -33,8 +35,9 @@ module.exports = {
     },
 
     {
-      nome: 'Vitória',
+      nome: "Vitória",
       sobrenome: "Marques",
+      cpf_cliente: "033.122.677-05",
       email: "vitoriaM@hotmail.com",
       telefone:"44 9 99386351",
       descricao_tattoo: "Uma tatuagem de caveira, com cores em preto e vermelho, de mais ou menos 40cm no braço.",
