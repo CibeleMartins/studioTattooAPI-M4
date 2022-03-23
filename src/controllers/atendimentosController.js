@@ -54,7 +54,7 @@ class atendimentosController {
     const novoReg = req.body;
 
     try {
-
+      
       const regCriado = await database.create(novoReg)
 
       return res.status(201).json(regCriado)
@@ -73,7 +73,7 @@ class atendimentosController {
     const regModificado = req.body
 
     try {
-      
+
       const isValid = Validacoes.validaId(id)
 
       if(await isValid) {

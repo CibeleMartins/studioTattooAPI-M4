@@ -1,5 +1,5 @@
 const database= require("../models/atendimentos");
-const {DataTypes} = require("sequelize");
+const req = require("express/lib/request");
 
 
 class Validacoes {
@@ -36,6 +36,33 @@ class Validacoes {
     }
 
   }
+
+  // static validaCorpoReq(novoReg){
+
+  //   const regNovo = Object.values(req.body)
+
+  //   if(regNovo.length == 9){
+    
+  //     return true
+
+  //   } else {
+
+  //     return false
+
+  //   }
+  // }
+
+  
+
+  // static validaCpf(cpf_cliente) {
+
+
+  // }
+
+  // static validaDdd(telefone) {
+
+
+  // }
 
 }
 

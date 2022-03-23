@@ -1,5 +1,5 @@
 const express = require("express");
-const atendimentos = require("./atendimentosRoutes")
+const atendimentos = require("./atendimentosRoutes");
 
 module.exports = app => {
   
