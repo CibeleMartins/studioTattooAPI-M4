@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-    <img src="./public/assets/airtightStudio.png" alt="Logo" width="300">
+    <img src="./public/assets/2.png" alt="Logo" width="300">
 
   <h3 align="center">Studio Tattoo API com Node, Express, Sequelize e SQLite</h3>
  <br />

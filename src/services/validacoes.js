@@ -37,22 +37,6 @@ class Validacoes {
 
   }
 
-  // static validaCorpoReq(novoReg){
-
-  //   const regNovo = Object.values(req.body)
-
-  //   if(regNovo.length == 9){
-    
-  //     return true
-
-  //   } else {
-
-  //     return false
-
-  //   }
-  // }
-
-  
 
   // static validaCpf(cpf_cliente) {
 
