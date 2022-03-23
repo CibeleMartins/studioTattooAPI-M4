@@ -97,7 +97,7 @@ $git clone https://github.com/CibeleMartins/studioTattooAPI-M4
 
 # Abra a pasta clonada em seu VSCode.
 
-# Ao abrir o VSCode, clique em -> Terminal e inicie um novo terminal.
+# Ao abrir a pasta no VSCode, clique em -> Terminal e inicie um novo terminal.
 
 # Certifique-se de que está dentro da pasta clonada para que os outros comandos funcionem com êxito.
 $cd studioTattooAPI-M4
@@ -117,6 +117,11 @@ $npm run create-table
 
 # Após, declare o comando que vai inserir alguns Atendimentos já pré-inseridos no módulo da pasta seeders para visualizarmos na tabela Atendimentos.
 $npm run populate-table 
+
+# Certifique-se de que o arquivo -> database.sqlite foi criado na pasta -> database e que a tabela possui três registros.
+
+# Inicie a aplicação novamente para realizar as etapas no Insomnia com êxito.
+$npm start
 
 # Se desejar deletar a migração de colunas e dados da tabela Atendimentos digite o comando
 $npm run delete-table

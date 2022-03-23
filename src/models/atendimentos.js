@@ -10,7 +10,7 @@ class Atendimentos extends Model {
           primaryKey: true,
           autoIncrement: true,
           allowNull: false
-         },
+        },
 
         nome: DataTypes.STRING,
         sobrenome: DataTypes.STRING,
