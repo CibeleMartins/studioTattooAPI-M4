@@ -1,6 +1,7 @@
 const res = require("express/lib/response");
 const {DataTypes} = require("sequelize")
 const database = require("../models/atendimentos");
+const Validacoes = require("../services/validacoes")
 
 class atendimentosController {
   
@@ -66,12 +67,22 @@ class atendimentosController {
     const regModificado = req.body
 
     try {
+      const isValid = Validacoes.validaId(id)
 
-      await database.update(regModificado, {where: {id: id}})
+      if(await isValid) {
 
-      const regAtualizado = await database.findOne({where: {id: id}})
+        await database.update(regModificado, {where: {id: id}})
 
-      return res.status(200).json(regAtualizado)
+        const regAtualizado = await database.findOne({where: {id: id}})
+  
+        return res.status(200).json(regAtualizado)
+
+      } else {
+
+        throw new Error ("Insira um número e um id de atendimento existente.")
+      }
+
+    
 
     } catch (error) {
 
