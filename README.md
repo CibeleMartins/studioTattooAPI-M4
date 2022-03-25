@@ -29,18 +29,16 @@ Sendo eles: Atendimentos, tatuadores, produtos e fornecedores.
 Nesta aplicação é possível cadastrar, listar, atualizar e deletar atendimentos.
 
 <br>
-<br>
 
 # Conhecimentos Praticados
-✔ NodeJs <br>
-✔ Express <br>
-✔ SQLite3 <br>
-✔ Sequelize <br>
-✔ CRUD com Sequelize <br>
+✔ NodeJs 
+✔ Express 
+✔ SQLite3 
+✔ Sequelize 
+✔ CRUD com Sequelize 
 ✔ Padrão MVC
 
 
-<br>
 <br>
 
 # Rotas da aplicação:
@@ -84,7 +82,6 @@ descricao_tattoo: "Uma tatuagem de dragão, sem cores, de mais ou menos 70cm nas
 **DELETE** /atendimentos/:id - A rota deve deletar um atendimento baseado em seu ID.
 
 <br>
-<br>
 
 # Validação de dados:
  
@@ -94,7 +91,6 @@ Foram adicionadas as seguintes validações para os dados recebidos nas requisi�
 
  * O parâmetro da rota de listagem, atualização e deleção devem ser um número, e correspondente a um id de atendimento existente.
  
-<br>
 <br>
 
 # Rodando o projeto:
@@ -147,7 +143,6 @@ $npm run delete-table
 https://sequelize.org/
 
 ```
-<br>
 <br>
 
 # CRUD com Insomnia:
