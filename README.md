@@ -28,8 +28,6 @@ Sendo eles: Atendimentos, tatuadores, produtos e fornecedores.
 
 Nesta aplicação é possível cadastrar, listar, atualizar e deletar atendimentos.
 
-<br>
-
 # Conhecimentos Praticados
 ✔ NodeJs <br>
 ✔ Express<br>
@@ -37,9 +35,6 @@ Nesta aplicação é possível cadastrar, listar, atualizar e deletar atendiment
 ✔ Sequelize <br>
 ✔ CRUD com Sequelize <br>
 ✔ Padrão MVC<br>
-
-
-<br>
 
 # Rotas da aplicação:
 
