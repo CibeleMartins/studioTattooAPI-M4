@@ -177,9 +177,11 @@ Após isso, utilize a variável de ambiente URL antes do nome da rota e teste o 
 
 <br>
 
-# Ou acesse a aplicação:
+# Acesse a aplicação:
 Também é possível acessar as rotas da aplicação através da URL:
 https://appstudiotattoo.herokuapp.com
+
+OBS: Para melhor visualização dos dados da aplicação, baixe a extensão <a href="https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=pt-BR" target="_blank">JSON Viewer</a> em seu navegador.
 
 # Dependências:
 ```javascript
