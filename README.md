@@ -147,7 +147,7 @@ Vá até o arquivo -> **crudInsomnia.har** inserido dentro da pasta raiz do proj
 
 **Ou somente clique no botão abaixo, observe os Gifs e realize as etapas seguintes**
 
-<a href="https://insomnia.rest/run/?label=studioTattooApi&uri=https%3A%2F%2Fraw.githubusercontent.com%2FCibeleMartins%2FstudioTattooAPI-M4-Resilia%2Fmain%2FcrudInsomnia.har" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+<a href="https://insomnia.rest/run/?label=studioTattooAPI&uri=https%3A%2F%2Fraw.githubusercontent.com%2FCibeleMartins%2FstudioTattooAPI-M4%2Fmain%2FcrudInsomnia.har" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 
 <p align="center">
 
