@@ -31,12 +31,12 @@ Nesta aplicação é possível cadastrar, listar, atualizar e deletar atendiment
 <br>
 
 # Conhecimentos Praticados
-✔ NodeJs 
-✔ Express 
-✔ SQLite3 
-✔ Sequelize 
-✔ CRUD com Sequelize 
-✔ Padrão MVC
+✔ NodeJs <br>
+✔ Express<br>
+✔ SQLite3 <br>
+✔ Sequelize <br>
+✔ CRUD com Sequelize <br>
+✔ Padrão MVC<br>
 
 
 <br>
