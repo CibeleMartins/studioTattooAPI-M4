@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-    <img src="./public/assets/2.png" alt="Logo" width="300">
+    <img src="./public/assets/logoStudio.jpg" alt="Logo" width="300">
 
   <h3 align="center">Studio Tattoo API com Node, Express, Sequelize e SQLite</h3>
  <br />
@@ -80,6 +80,11 @@ descricao_tattoo: "Uma tatuagem de dragão, sem cores, de mais ou menos 70cm nas
 
 # Validação de dados:
  
+ Foram adicionadas as seguintes validações para os dados recebidos nas requisições:
+
+ **GET**/**PATCH**/**DELETE**
+
+ * O parâmetro da rota de listagem, atualização e deleção devem ser um número, e correspondente a um id de atendimento existente.
  
 
 # Rodando o projeto:
@@ -144,9 +149,9 @@ Vá até o arquivo -> **crudInsomnia.har** inserido dentro da pasta raiz do proj
 
 <a href="https://insomnia.rest/run/?label=studioTattooApi&uri=https%3A%2F%2Fraw.githubusercontent.com%2FCibeleMartins%2FstudioTattooAPI-M4-Resilia%2Fmain%2FcrudInsomnia.har" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 
-<p>
+<p align="center">
 
-<img src="./public/assets/insomnia.gif" alt="Logo" width="300">
+<img src="./public/assets/insomniaButton.gif" alt="Logo" width="500">
 
 </p>
 <br>
