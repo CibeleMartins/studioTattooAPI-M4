@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-    <img src="./public/assets/logoStudio.jpg" alt="Logo" width="200">
+    <img src="./public/assets/logoStudio.jpg" alt="Logo" width="300">
 
   <h3 align="center">Studio Tattoo API com Node, Express, Sequelize e SQLite</h3>
  <br />
@@ -19,7 +19,6 @@
   </p>
 </p>
 
-
 # Sobre
 Projeto desenvolvido no final do Módulo 4, na Turma 10 do curso de Desenvolvimento Web Fullstack da Resilia Educação. A finalidade do projeto foi criar uma API para um estúdio de tatuagem utilizando Node, Express, Sequelize e SQLite. 
 
@@ -28,6 +27,9 @@ Cada integrante do grupo ficou responsável pela criação de uma API referente 
 Sendo eles: Atendimentos, tatuadores, produtos e fornecedores.
 
 Nesta aplicação é possível cadastrar, listar, atualizar e deletar atendimentos.
+
+<br>
+<br>
 
 # Conhecimentos Praticados
 ✔ NodeJs <br>
@@ -38,9 +40,12 @@ Nesta aplicação é possível cadastrar, listar, atualizar e deletar atendiment
 ✔ Padrão MVC
 
 
+<br>
+<br>
+
 # Rotas da aplicação:
 
-## Clientes
+## Atendimentos
 
 **GET** / - A rota deve exibir todos os atendimentos cadastrados.<br>
 
@@ -76,16 +81,21 @@ descricao_tattoo: "Uma tatuagem de dragão, sem cores, de mais ou menos 70cm nas
 }
 ```
 
-**DELETE** /atendimentos/:id - A rota deve deletar um atendimento baseado em seu ID.<br>
+**DELETE** /atendimentos/:id - A rota deve deletar um atendimento baseado em seu ID.
+
+<br>
+<br>
 
 # Validação de dados:
  
- Foram adicionadas as seguintes validações para os dados recebidos nas requisições:
+Foram adicionadas as seguintes validações para os dados recebidos nas requisições:
 
  **GET**/**PATCH**/**DELETE**
 
  * O parâmetro da rota de listagem, atualização e deleção devem ser um número, e correspondente a um id de atendimento existente.
  
+<br>
+<br>
 
 # Rodando o projeto:
 
@@ -137,6 +147,9 @@ $npm run delete-table
 https://sequelize.org/
 
 ```
+<br>
+<br>
+
 # CRUD com Insomnia:
 
 Utilize o Insomnia para realizar as requisições na studioTattooApi! Para isso, abra o Insomnia no seu computador.
@@ -151,7 +164,7 @@ Vá até o arquivo -> **crudInsomnia.har** inserido dentro da pasta raiz do proj
 
 <p align="center">
 
-<img src="./public/assets/insomniaButton.gif" alt="Logo" width="500">
+<img src="./public/assets/insomniaButton.gif">
 
 </p>
 <br>
@@ -164,9 +177,11 @@ Clique em -> **Done**.
 
 Após isso, utilize a variável de ambiente URL antes do nome da rota e teste o CRUD da aplicação.
 
+<br>
+
 <p align="center">
 
-<img src="./public/assets/insomniaCollection.gif" alt="Logo" width="500">
+<img src="./public/assets/insomniaCollection.gif">
 
 </p>
 <br>
