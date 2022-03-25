@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-    <img src="./public/assets/logoStudio.jpg" alt="Logo" width="300">
+    <img src="./public/assets/logoStudio.jpg" alt="Logo" width="200">
 
   <h3 align="center">Studio Tattoo API com Node, Express, Sequelize e SQLite</h3>
  <br />
@@ -163,6 +163,13 @@ Abra a coleção criada no Insomnia com o nome **My Collection**. Através dos m
 Clique em -> **Done**.
 
 Após isso, utilize a variável de ambiente URL antes do nome da rota e teste o CRUD da aplicação.
+
+<p align="center">
+
+<img src="./public/assets/insomniaCollection.gif" alt="Logo" width="500">
+
+</p>
+<br>
 
 
 # Tecnologias utilizadas: 
