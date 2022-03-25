@@ -174,15 +174,35 @@ Após isso, utilize a variável de ambiente URL antes do nome da rota e teste o 
 <img src="./public/assets/insomniaCollection.gif">
 
 </p>
+
 <br>
 
+# Ou acesse a aplicação:
+Também é possível acessar as rotas da aplicação através da URL:
+https://appstudiotattoo.herokuapp.com
+
+# Dependências:
+```javascript
+"dependencies": {
+    "chalk": "^5.0.1",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.17.0",
+    "sequelize-cli": "^6.4.1",
+    "sqlite3": "^5.0.2",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
+```
 
 # Tecnologias utilizadas: 
 <p align="center">
 <a href="https://nodejs.org/en/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" width="40" /></a> <a href="https://expressjs.com/pt-br/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" height="40" width="40" /></a> <a href="https://insomnia.rest/download"><img src="./public/assets/insomniaIcon.png" height="40" width="40" /></a> <a href="https://sequelize.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" height="40" width="40" /></a> <a href="https://www.sqlite.org/index.html"><img src="./public/assets/sqlite3Icon.png" height="40" width="80" /></a>
 </p>
-
-
 
 ---
 **Desenvolvido por <a href="https://www.linkedin.com/in/cibelemartinssss/">Cibele Martins</a> .** 
