@@ -101,38 +101,40 @@ Antes de começar, você precisará instalar em sua máquina as seguintes ferram
 # Crie uma pasta onde desejar, clique com o botão direito e depois clique em -> Git Bash Here.
 
 # Clone este repositório.
-$git clone https://github.com/CibeleMartins/studioTattooAPI-M4
+$ git clone https://github.com/CibeleMartins/studioTattooAPI-M4
+
+# OBS: Para colar o link no Git clique com o botão direito e depois em -> Paste.
 
 # Abra a pasta clonada em seu VSCode.
 
 # Ao abrir a pasta no VSCode, clique em -> Terminal e inicie um novo terminal.
 
 # Certifique-se de que está dentro da pasta clonada para que os outros comandos funcionem com êxito.
-$cd studioTattooAPI-M4
+$ cd studioTattooAPI-M4
 
 # Instale as dependências do projeto.
-$npm install
+$ npm install
 
 # Inicie o servidor da aplicação.
-$npm start
+$ npm start
 
 # Após isso, para não precisar abrir um novo terminal, aperte CTRL + C, digite "s" e aperte ENTER.
 
 # Em seguida digite o comando responsável por criar a base de dados com a entidade Atendimentos.
-$npm run create-table
+$ npm run create-table
 
-# OBS: 1 - Caso deseje fazer alguma alteração na entidade Atendimentos, entre em -> migrations para configurá-la e em -> models para passar a configuração da migração, e depois digite o comando supracitado. 2 - Caso seja feito esse tipo de alteração na tabela, é necessário também, inserir as alterações nos Atendimentos pré-inseridos na pasta seeders.
+# OBS: 1 - Caso deseje fazer alguma alteração na entidade Atendimentos, entre em -> Migrations para configurá-la e em -> Models para passar a configuração da migração, e depois digite o comando supracitado. 2 - Caso seja feito esse tipo de alteração na tabela, é necessário também, inserir as alterações nos Atendimentos pré-inseridos na pasta seeders.
 
 # Após, declare o comando que vai inserir alguns Atendimentos já pré-inseridos no módulo da pasta seeders para visualizarmos na tabela Atendimentos.
-$npm run populate-table 
+$ npm run populate-table 
 
 # Certifique-se de que o arquivo -> database.sqlite foi criado na pasta -> database e que a tabela possui três registros.
 
 # Inicie a aplicação novamente para realizar as etapas no Insomnia com êxito.
-$npm start
+$ npm start
 
 # Se desejar deletar a migração de colunas e dados da tabela Atendimentos digite o comando
-$npm run delete-table
+$ npm run delete-table
 
 #Obs: Caso o usuário queira incrementar o projeto é recomendado que observe e verifique a documentação do Sequelize.
 https://sequelize.org/
